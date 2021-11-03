@@ -594,8 +594,7 @@ header ul li a:hover{
 .progect .container .box:hover{
     transform: scale(1.1);
 }
-}
-.progect .container .box:first-of-type:hover{
+ .progect .container .box:first-of-type:hover{
     margin-right: 15px;
 }
 .progect .container .box:nth-of-type(2):hover{
@@ -603,6 +602,7 @@ header ul li a:hover{
 }
 .progect .container .box:last-of-type:hover{
     margin-left:15px ;
+}   
 }
 /* 
 margin: 0 15px; */
