@@ -590,7 +590,7 @@ header ul li a:hover{
     background: #f6f6f6;
     transition: .3s;
 }
-@media(min-width:992px){
+/* @media(min-width:992px){
 .progect .container .box:hover{
     transform: scale(1.1);
 }
@@ -603,7 +603,7 @@ header ul li a:hover{
 .progect .container .box:last-of-type:hover{
     margin-left:15px ;
 }   
-}
+} */
 /* 
 margin: 0 15px; */
 .progect .container .box img{
