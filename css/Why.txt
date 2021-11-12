@@ -1,1 +1,0 @@
-Why display none dont work with i
