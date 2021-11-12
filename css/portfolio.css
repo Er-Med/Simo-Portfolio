@@ -429,7 +429,7 @@ header .container .nav ul li a:hover{
 }
 .progect .container{
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(310px, 1fr));
     gap: 10px;
 }
 .progect .container .box{
