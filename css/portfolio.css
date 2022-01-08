@@ -583,6 +583,11 @@ footer .container .me .contact .sociale a i{
     margin-right: 5px;
     transition: color .3s;
 }
+@media(max-width:767px){
+    footer .container .me .contact .sociale a span{
+        display: none;
+    }    
+}
 footer .container .me .contact .sociale a span.fb{
   color: #2196f3;
 }
