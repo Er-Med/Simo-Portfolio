@@ -1,4 +1,4 @@
-*{
+ *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -248,7 +248,7 @@ header .container .nav ul li a:hover{
     }
 }
 .about .container .image:hover:before{
-    background:#a67dee;
+    background:#d1a2ff;
 }
 @media(max-width:768px){
     .about .container .image{
@@ -387,8 +387,6 @@ header .container .nav ul li a:hover{
     box-shadow: 0 12px 20px 0 rgb(0 0 0 / 13%), 0 2px 4px 0 rgb(0 0 0 / 12%);
     transition: color 0.3s;
 }
-/* .services .container .box:hover{
-} */
 .services .container .box::before{
     content: "";
     position: absolute;
@@ -441,9 +439,9 @@ header .container .nav ul li a:hover{
 }
 .services .container .box span.cond{
     display: block;
-    padding: 20px 10px;
+    padding: 20px 25px;
     position: relative;
-    width: 150px;
+    width: fit-content;
     margin:  5px auto;
     font-size: 17px;
     letter-spacing: 0.5px;
@@ -583,6 +581,15 @@ footer .container .me .contact .sociale a i{
     border-radius: 50%;
     margin-right: 5px;
     transition: color .3s;
+}
+footer .container .me .contact .sociale a span.fb{
+  color: #2196f3;
+}
+footer .container .me .contact .sociale a span.inst{
+  color: rgb(226, 69, 174);
+}
+footer .container .me .contact .sociale a span.wtsp{
+  color: rgb(0, 255, 85);
 }
 footer .container .me .contact .sociale a i.fb{
     color: blue;
