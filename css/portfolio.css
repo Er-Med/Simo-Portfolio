@@ -565,7 +565,8 @@ footer .container .me .contact .sociale h3{
     margin-bottom: 15px;
 }
 footer .container .me .contact .sociale a{
-    display: block;
+    display: flex;
+    align-items: center;
     color:#fff;
     margin-bottom: 10px;
 }
