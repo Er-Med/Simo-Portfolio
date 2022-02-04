@@ -515,6 +515,7 @@ footer .container form input{
 }
 footer .container form textarea{
     height: 140px;
+    resize : none;
 }
 footer .container form textarea,footer .container form input{
     outline: none;
