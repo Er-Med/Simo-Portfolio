@@ -515,6 +515,7 @@ footer .container form input{
 }
 footer .container form textarea{
     height: 140px;
+    resize: none;
 }
 footer .container form textarea,footer .container form input{
     outline: none;
@@ -522,7 +523,6 @@ footer .container form textarea,footer .container form input{
     width: 100%;
     font-size: 16px;
     font-family:"Righteous";
-    resize: none
 }
 footer .container form textarea::placeholder,footer .container form input::placeholder{
     color: #a09d9d;
